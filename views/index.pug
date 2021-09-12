@@ -1,0 +1,23 @@
+doctype html
+html 
+    head
+        link(rel="stylesheet", href="static/index.css")
+        title= title
+    body
+        if structure
+            table 
+                thead
+                    tr 
+                        each item in structure
+                            th= item.disk
+                tbody  
+                    - var i= 0
+                    while i < numberOfBlocks
+                        tr
+                            each item in structure
+                                - var block= item.blocks[i]
+                                if block.parity
+                                    td(class='parity-block-column')=block.data
+                                else
+                                    td= block.data
+                        - i++

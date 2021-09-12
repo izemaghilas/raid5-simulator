@@ -1,0 +1,19 @@
+{
+  "name": "raid5-simulator",
+  "version": "1.0.0",
+  "description": "RAID5 simulator",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
