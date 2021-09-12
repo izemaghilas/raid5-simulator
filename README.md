@@ -1,4 +1,8 @@
+<div align="center">
+    <h1>RAID5 Simulator</h1>
+    <p>web application made with nodejs, express and pug</p>
+</div>
+## Description
 <div>
-    <h1>simple RAID5 Simulator</h1>
-    <p>web application to simulate RAID5</p>
+    <p>Given a number of disks and a number of blocks in each disk, the application build a table showing the structure of  </p>
 </div>
