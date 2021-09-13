@@ -13,3 +13,11 @@
         Set these parameters to get a different table.
     </p>
 </div>
+
+## Install
+    $ git clone https://github.com/izemaghilas/raid5-simulator.git
+    $ cd raid5-simulator
+    $ npm install
+
+## Running the project
+    $ npm run dev or npm start
