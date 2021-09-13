@@ -7,7 +7,7 @@
 <div>
     <p>Given a number of disks and a number of blocks in each disk, the application build a table showing disk blocks and which one is for parity.</p>
     <p> 
-        The application deployed on heroku : https://raid5-simulator.herokuapp.com/?col=5&row=10 <br>
+        The application was deployed on heroku : https://raid5-simulator.herokuapp.com/?col=5&row=10 <br>
         <strong>col</strong> => represents the number of disks. <br>
         <strong>row</strong> => represents the number of blocks in each disk.<br>
         Set these parameters to get a different table.
